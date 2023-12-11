@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    font-family: 'Kalnia', serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0; /* Elimina el margen predeterminado del cuerpo del documento */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo del documento */
+  }
+  header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 5rem;
+  }
+  main {
+    padding: 10rem; /* Agrega relleno alrededor del contenido principal */
+  }
+  hr {
+    border: none;             /* Sin borde */
+    height: 3px;              /* Grosor de la línea */
+    background-color: #ffffff;   /* Color de la línea */
+    margin: 20px 0;        /* Espaciado superior e inferior, centrado horizontalmente */
+    width: 50%;               /* Ancho de la línea */
+  }
+  .btn-orange {
+      background-color: orange;
+      border-color: #FFD700; /* Código de color mostaza */
+    }
+    .btn-orange:active, .btn-orange:focus {
+      background-color: #8B4513; /* Código de color café */
+      border-color: #8B4513;
+    }
+</style>
+<body>
+    <header>
+        <div class="decorative-line"></div>
+        <h1 style="font-family: 'Whisper', cursive;">CAFETERIA</h1>
+        <div class="decorative-line"></div>
+        <p>Club Confort</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="cafe.jpg" class="img-thumbnail" alt="...">
+              </div>
+              <div class="col-md-8">
+                <h2 style="color: rgb(191, 95, 11);">Sobre Nosotros</h2>
+                <p style="color: rgb(241, 244, 246);">Bienvenido a la Cafetería club confort! Somos más que una simple cafetería; somos un espacio dedicado a brindarte experiencias inolvidables, taza tras taza.</p>
+                <p style="color: rgb(241, 244, 246);">Nuestra cafetería es un refugio para los amantes del café que buscan más que una bebida.</p>
+                <hr>
+                <h3 style="color: rgb(191, 95, 11);">Regístrate para Eventos Especiales</h3>
+                <div class="container mt-5">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <form>
+                          <div class="form-group">
+                            <label for="nombre" style="color: rgb(241, 244, 246);">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                          </div>
+                
+                          <div class="form-group">
+                            <label for="correo" style="color: rgb(241, 244, 246);">Correo:</label>
+                            <input type="email" class="form-control" id="correo" name="correo" required>
+                          </div>
+                
+                          <div class="form-group">
+                            <label for="numero" style="color: rgb(241, 244, 246);">Número:</label>
+                            <input type="tel" class="form-control" id="numero" name="numero" required>
+                          </div>
+                      </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="numPersonas" style="color: rgb(241, 244, 246);">Número de Personas (Máximo 20):</label>
+                              <input type="number" class="form-control" id="numPersonas" name="numPersonas" required max="20">
+                            </div>
+                    
+                        <div class="form-group">
+                          <label for="comentario" style="color: rgb(241, 244, 246);">Comentario:</label>
+                          <textarea class="form-control" id="comentario" name="comentario" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-orange text-white">Enviar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <hr>
+    <!-- pie de pagina --> 
+    <header>
+        <footer class="text-white text-center">
+                  <div class="row">
+                    <div class="col-4">
+                        <h2 style="color:rgb(237, 153, 8);">contacto</h2>
+                      <p class="text-left">ubicado en la av.Cochabamba, esquina calle Cobija.</p>
+                      <p class="text-left" style="font-family: 'Mooli', sans-serif;">Teléfono: 74033404</p>
+                    </div>
+                    <div class="col-4">
+                        <h2 style="color:rgb(237, 153, 8);">horarios</h2>
+                      <p class="text-center" style="font-family: 'Mooli', sans-serif;">lunes-viernes</p>
+                      <p class="text-center" style="font-family: 'Mooli', sans-serif;">7:30am-22:00pm</p>
+                      <p class="text-center" style="font-family: 'Mooli', sans-serif;">sabado-domingo</p>
+                      <p class="text-center" style="font-family: 'Mooli', sans-serif;">9:15am-22:30pm</p>
+                    </div>
+                    <div class="col-4 text-right">
+                        <a href="https://maps.app.goo.gl/PqAgV826mqdy24qTA" target="_blank"  style="text-decoration: none;">
+                            <h2 style="color:rgb(237, 153, 8);">Ubicación</h2>
+                        </a>
+                        <img src="ubi.jpg" style="max-width:150%; height:auto;" class="img-fluid img-end">                    
+                      </div>
+              </div>
+        </footer>
+    </header>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

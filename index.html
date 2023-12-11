@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafeteria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iKDEr5LlOi1KxjQ5t9PeCfyYFhAvoEHwF8eXpG7tDQ9qBsoMcl5KZ6N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-eaQ8BR4hY7U2bwS9V8mRHDH6cY/uJ3I5dzE68smzIfR8eAxF8k2G5A9O7MJPgqK" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div class="decorative-line"></div>
+    <h1 style="font-family: 'Whisper', cursive;">CAFETERIA</h1>
+    <div class="decorative-line"></div>
+    <p>Club Confort</p>
+  </header>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo cafe.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                <span class="ml-3">CAFETERIA</span>
+            </a>  
+            <a class="btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>          
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+        </a>
+        <div class="d-flex justify-content-center">
+            <ul class="nav nav-tabs">
+                <li class="nav-item" role="presentation">
+                    <a href="#inicio" class="nav-link text-warning">Inicio</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-warning" href="menu.html">Menú</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-warning" href="contactos.html">Pedidos Online</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-warning" href="promociones.html">Promociones</a>
+                </li>
+            </ul>
+        </div>
+        
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="inicio-tab" tabindex="0"></div>
+            <div class="tab-pane fade show active" id="profile-tab-pane" role="tabpanel" aria-labelledby="menú-tab" tabindex="0"></div>
+            <div class="tab-pane fade show active" id="contact-tab-pane" role="tabpanel" aria-labelledby="contacto-tab" tabindex="0"></div>
+            <div class="tab-pane fade show active" id="disabled-tab-pane" role="tabpanel" aria-labelledby="galeria-tab" tabindex="0"></div>
+          </div>
+          <div class="d-flex justify-content-end" style="margin-right: 20px;">
+            <!-- Nuevo enlace para iniciar sesión con un ícono -->
+            <a class="nav-link text-warning" href="iniciar_sesion.html">
+                <div style="text-align: center;">
+                    <span class="material-icons" style="font-size: 24px;">
+                        account_box
+                    </span>
+                    <p style="font-size: 18px;">Iniciar Sesión</p>
+                </div>
+        </div>
+        </div>
+      </nav>
+<!-- carrusel -->
+<section id="inicio"></section>
+<header>
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="carrusel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="carrusel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="carrusel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <hr>
+ <!-- columnas --> 
+ <header>
+    <div class="container mt-5">
+       <div class="row">
+         <div class="col-md-3">
+           <div class="text-center">
+             <img src="trabajo.jpg" alt="Imagen 1" class="img-fluid rounded-circle mb-3">
+             <h2 style="color:rgb(237, 153, 8);">Espacio para trabajar</h2>
+             <p>
+                Bienvenido a nuestro rincón especial en CAFETERIA club confort. Proporciona Wi-Fi gratuito y crea un ambiente cómodo. 
+               <span class="read-more-content">
+                Ya sea que estés aquí para lograr tus metas laborales, estudiar para ese próximo examen o simplemente disfrutar de un día productivo fuera de la rutina.
+               </span>
+             </p>
+             <a href="#" class="read-more-toggle" data-target=".read-more-content" style="text-decoration: none; color: rgb(206, 174, 15);">Leer más</a>
+
+           </div>
+         </div>
+     
+         <div class="col-md-3">
+           <div class="text-center">
+             <img src="karaoke.jpg" alt="Imagen 2" class="img-fluid rounded-circle mb-3">
+             <h2 style="color:rgb(237, 153, 8);">karaoke club confort</h2>
+             <p>
+                ¡Descubre Tu Estrella Interior en Nuestro Karaoke Café club confort!La diversión no tiene límites. 
+               <span class="read-more-content">
+                Únete a nosotros en nuestras noches de karaoke desde las 20:00pm.¡Te esperamos para que brilles en el escenario!.
+               </span>
+             </p>
+             <a href="#" class="read-more-toggle" data-target=".read-more-content" style="text-decoration: none; color: rgb(206, 174, 15);">Leer más</a>
+
+           </div>
+         </div>
+     
+         <div class="col-md-3">
+           <div class="text-center">
+             <img src="musica.jpg" alt="Imagen 3" class="img-fluid rounded-circle mb-3">
+             <h2 style="color:rgb(237, 153, 8);">Música en Vivo</h2>
+             <p>
+                damos vida a las noches con el encanto de la música en vivo, todo mientras disfrutas del ambiente acogedor de nuestra cafetería.
+               <span class="read-more-content">
+                Únete a nosotros para noches llenas de ritmo y melodía de la música. ¡Te esperamos!!!
+               </span>
+             </p>
+             <a href="#" class="read-more-toggle" data-target=".read-more-content" style="text-decoration: none; color: rgb(206, 174, 15);">Leer más</a>
+
+           </div>
+         </div>
+     
+         <div class="col-md-3">
+           <div class="text-center">
+             <img src="bar.jpg" alt="Imagen 4" class="img-fluid rounded-circle mb-3">
+             <h2 style="color:rgb(237, 153, 8);">Bar de Auto-Servicio</h2>
+             <p>
+                Donde los clientes pueden personalizar sus propias bebidas.
+               <span class="read-more-content">
+                Ofrece una variedad de jarabes, especias, y condimentos para que los clientes puedan añadir un toque personal a su café.
+               </span>
+             </p>
+             <a href="#" class="read-more-toggle" data-target=".read-more-content" style="text-decoration: none; color: rgb(206, 174, 15);">Leer más</a>
+           </div>
+         </div>
+       </div>
+     </div>
+     
+     <!-- Incluye los scripts de Bootstrap y jQuery (puedes enlazar a un CDN o descargar los archivos) -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+     <script>
+       $(document).ready(function() {
+         $('.read-more-toggle').on('click', function(e) {
+           e.preventDefault();
+           var target = $(this).data('target');
+           $(target).toggle();
+           $(this).text(function(_, oldText) {
+             return oldText === 'Leer más' ? 'Leer menos' : 'Leer más';
+           });
+         });
+       });
+     </script>
+   </header>
+   <hr>
+<!-- llenado de formulario --> 
+<header>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12 text-center mb-4">
+      <h2 style="color:rgb(237, 153, 8);">Reserva de Mesa</h2>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <form action="#" method="post">
+        <!-- Campo de personas -->
+        <div class="mb-3">
+          <label for="personas" class="form-label">Número de Personas:</label>
+          <input type="number" class="form-control" id="personas" name="personas" required>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <!-- Campo de fecha -->
+        <div class="mb-3">
+          <label for="fecha" class="form-label">Fecha de Reserva:</label>
+          <input type="date" class="form-control" id="fecha" name="fecha" required>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <!-- Campo de hora -->
+        <div class="mb-3">
+          <label for="hora" class="form-label">Hora de Reserva:</label>
+          <input type="time" class="form-control" id="hora" name="hora" required>
+        </div>
+
+        <!-- Botón de enviar -->
+        <button type="submit" class="btn bg-secondary text-white">Enviar Reserva</button>
+      </form>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Captura el formulario
+    const form = document.querySelector('form');
+
+    // Agrega un event listener al formulario para mostrar la información al enviar
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Captura los valores de los campos
+      const personas = document.getElementById('personas').value;
+      const fecha = document.getElementById('fecha').value;
+      const hora = document.getElementById('hora').value;
+
+      // Muestra la información en las columnas a la derecha
+      document.getElementById('info-personas').innerText = 'Personas: ' + personas;
+      document.getElementById('info-fecha').innerText = 'Fecha: ' + fecha;
+      document.getElementById('info-hora').innerText = 'Hora: ' + hora;
+    });
+  });
+</script>
+</header>
+<hr>
+<!-- pie de pagina --> 
+<header>
+    <footer class="text-white text-center">
+              <div class="row">
+                <div class="col-4">
+                    <h2 style="color:rgb(237, 153, 8);">contacto</h2>
+                  <p class="text-left">ubicado en la av.Cochabamba, esquina calle Cobija.</p>
+                  <p class="text-left" style="font-family: 'Mooli', sans-serif;">Teléfono: 74033404</p>
+                </div>
+                <div class="col-4">
+                    <h2 style="color:rgb(237, 153, 8);">horarios</h2>
+                  <p class="text-center" style="font-family: 'Mooli', sans-serif;">lunes-viernes</p>
+                  <p class="text-center" style="font-family: 'Mooli', sans-serif;">7:30am-22:00pm</p>
+                  <p class="text-center" style="font-family: 'Mooli', sans-serif;">sabado-domingo</p>
+                  <p class="text-center" style="font-family: 'Mooli', sans-serif;">9:15am-22:30pm</p>
+                </div>
+                <div class="col-4 text-right">
+                    <a href="https://maps.app.goo.gl/PqAgV826mqdy24qTA" target="_blank"  style="text-decoration: none;">
+                        <h2 style="color:rgb(237, 153, 8);">Ubicación</h2>
+                    </a>
+                    <img src="ubi.jpg" style="max-width:150%; height:auto;" class="img-fluid img-end">                    
+                  </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p>Síguenos en redes sociales:</p>
+            </div>
+                <a href="https://www.facebook.com/tupagina" target="_blank" class="social-link">
+                  <img src="logoF.jpg" alt="Facebook" width="70" height="70">
+                </a>
+                <a href="https://www.instagram.com/tupagina" target="_blank" class="social-link">
+                  <img src="instagram.jpg" alt="Instagram" width="70" height="70">
+                </a>
+            </div>
+          </div>
+    </footer>
+</header>
+</body>
+</html>
